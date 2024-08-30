@@ -1,16 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
   <!-- Background overlay -->
-  <rect width="100%" height="100%" fill="rgba(0, 0, 0, 0.8)" />
+  <rect width="100%" height="100%" fill="rgba(0, 0, 0, 0.6)" />
   
   <!-- Popup box -->
-  <rect x="10%" y="30%" width="80%" height="40%" rx="10" ry="10" fill="#ffffff" />
+  <rect x="15%" y="30%" width="70%" height="40%" rx="10" ry="10" fill="#ffffff" stroke="#6772e5" stroke-width="0.5"/>
   
   <!-- Stripe Logo (simulado) -->
-  <text x="50%" y="42%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6772e5" font-weight="bold">Stripe</text>
+  <text x="50%" y="38%" dominant-baseline="middle" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="6" fill="#6772e5" font-weight="bold">Stripe</text>
   
   <!-- Compromised Message -->
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="4" fill="#32325d">Your company has been compromised!</text>
-  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="3" fill="#32325d">Contact hacker@hackerone.com</text>
-  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="3" fill="#32325d">to recover your account</text>
-  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="3" fill="#32325d">or visit https://stripehacker.com</text>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="4" fill="#32325d" font-weight="bold">Your company has been compromised!</text>
+  
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="3" fill="#525f7f">Contact <tspan font-weight="bold">hacker@hackerone.com</tspan></text>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="3" fill="#525f7f">to recover your account</text>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="3" fill="#525f7f">or visit <tspan font-weight="bold">https://stripehacker.com</tspan></text>
+
+  <!-- Button -->
+  <rect x="35%" y="65%" width="30%" height="8%" rx="5" ry="5" fill="#6772e5" />
+  <text x="50%" y="69%" dominant-baseline="middle" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="3.5" fill="#ffffff" font-weight="bold">OK</text>
 </svg>
